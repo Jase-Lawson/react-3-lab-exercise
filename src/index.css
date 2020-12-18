@@ -5,9 +5,53 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #222222;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.header{
+background-color: #36A5DA;
+height: 8vh;
+}
+
+.main_content{
+  margin: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.index_card_style{
+  background-color: white;
+  height: 300px;
+  padding: 20px;
+}
+.id_number{
+  display: flex;
+  justify-content: flex-end;
+}
+.movies_style{
+  font-size: large;
+}
+
+.nav_bar{
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_button{
+  color: white;
+  background-color: #222222;
+
+}
+
+.center_button{
+background-color: #36A5DA;
+color: white;
+border-radius: 25%;
+margin: 8px;
 }
